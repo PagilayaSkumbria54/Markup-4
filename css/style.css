@@ -78,7 +78,7 @@
 
 /*_me starts*/
 ._me {
-
+    margin-bottom: 105px;
 }
 
 ._me_wrapper {
@@ -156,3 +156,45 @@
 }
 
 /*_me ends*/
+
+/*About me starts*/
+.about_me {
+    background-color: #f6f6f6;
+}
+
+.about_me_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding-top: 120px;
+    margin-bottom: 35px;
+}
+
+.title_text {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about_me_description {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 52px;
+}
+
+.about_me_description_text {
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+/*About me ends*/
