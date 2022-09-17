@@ -186,6 +186,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-gap: 52px;
+    margin-bottom: 110px;
 }
 
 .about_me_description_text {
@@ -198,3 +199,65 @@
 }
 
 /*About me ends*/
+
+/*Skills starts*/
+.skills {
+
+}
+
+.skills_wrapper {
+
+}
+
+.skills_subtitle {
+    margin-bottom: 85px;
+}
+
+.skills_subtitle_text {
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.programs {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    margin-bottom: 111px;
+}
+
+.programs_item {
+    display: grid;
+    justify-items: center;
+
+}
+
+.program_name {
+    margin-top: 25px;
+    margin-bottom: 42px;
+}
+
+.program_name_text {
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.rating {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+/*Skills ends*/
+
+/*Portfolio starts*/
+/**/
