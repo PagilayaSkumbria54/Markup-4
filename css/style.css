@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
     url('../fonts/Gilroy_Bold/font-style(bold).woff2') format('woff2'),
     url('../fonts/Gilroy_Bold/font-style(bold).woff') format('woff'),
@@ -66,11 +66,93 @@
 
 .menu_link:hover {
     color: #070707;
-    transition: all .1s;
+    transition: all .2s ease;
 }
 
 .horizontal_line {
     border: 1px solid #828282;
+    background-color: #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 /*Header ends*/
+
+/*_me starts*/
+._me {
+
+}
+
+._me_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 55px;
+}
+
+._me_name {
+    max-width: 125px;
+
+}
+
+._me_name_text {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 59px;
+
+}
+
+._me_job {
+    display: flex;
+    max-width: 156px;
+}
+
+._me_job_text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+._me_photo {
+    background-image: url('../img/my_photo.jpg');
+
+}
+
+.menu_language {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    transform: rotate(-90deg);
+}
+
+.language {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 700;
+}
+
+.language{
+    text-decoration: none;
+}
+
+.language_mark {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.language:hover {
+    color: #070707;
+    transition: all .2s ease;
+}
+
+._me_photo{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*_me ends*/
