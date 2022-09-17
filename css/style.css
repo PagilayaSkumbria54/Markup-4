@@ -298,3 +298,77 @@
 }
 /*Portfolio ends*/
 
+/*Footer starts*/
+.contacts {
+
+}
+
+.contacts_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts_subtitle {
+    margin-bottom: 35px;
+}
+
+.contacts_subtitle_text {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;}
+
+.button {
+    background-color: #070707;
+    border-radius: 50px;
+    width: 180px;
+    height: 42px;
+    margin-bottom: 86px;
+    cursor: pointer;
+}
+
+.button_text {
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.socials {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 62px;
+    margin-bottom: 45px;
+}
+
+.social_item {
+
+}
+
+.end {
+    margin-bottom: 125px;
+}
+
+.end_text {
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+/*Footer ends*/
