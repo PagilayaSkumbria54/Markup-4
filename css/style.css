@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+    url('../fonts/Gilroy_Medium/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy_Medium/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilroy_Medium/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+    url('../fonts/Gilroy_Bold/font-style(bold).woff2') format('woff2'),
+    url('../fonts/Gilroy_Bold/font-style(bold).woff') format('woff'),
+    url('../fonts/Gilroy_Bold/font-style(bold).ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Gilroy, sans-serif;
+    color: #000;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*Header starts*/
+.header {
+
+}
+
+.header_menu {
+
+}
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.menu_item {
+
+}
+
+.menu_link {
+    text-decoration: none;
+    font-family: Gilroy,sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.menu_link:hover {
+    color: #070707;
+    transition: all .1s;
+}
+
+.horizontal_line {
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/*Header ends*/
